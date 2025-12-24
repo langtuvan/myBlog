@@ -50,13 +50,13 @@ const skills = [
 
 const projects = [
   {
-    name: "E-Commerce Platform",
+    name: "Booking Management System",
     description:
-      "Built a full-stack e-commerce solution with React, Node.js, and MongoDB. Implemented shopping cart, payment integration, and admin dashboard.",
+      "Built a full-stack e-commerce solution with Next.js, NestJs, and MongoDB. Implemented Booking cart, and admin dashboard.",
     image:
       "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    link: "#",
+    technologies: ["React", "NestJs", "MongoDB", "socket.io"],
+    link: "https://nextapp-blush-kappa.vercel.app/",
   },
   {
     name: "Real-Time Chat Application",
@@ -98,7 +98,6 @@ const footerNavigation = {
     { name: "langtuvan@hotmail.com", href: "mailto:langtuvan@hotmail.com" },
     { name: "0938 887 467", href: "tel:0938887467" },
     { name: "Ho Chi Minh City, Vietnam", href: "#" },
-
   ],
   social: [
     {
